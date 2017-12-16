@@ -13,15 +13,16 @@ app.controller("BlogCtrl", function($location, $rootScope, $scope, DatabaseServi
     getBlogs(); 
 
     $scope.selectBlog = (index) => {
-        $scope.selectedBlog = $scope.blogs[index]
+        $scope.selectedBlog = $scope.blogs[index];
     };
 
-    $scope.clearSelectedBlog = () => {
-        $scope.selectBlog = null; 
+    $scope.clearSelectedBlog = (event) => {
+        event.preventDefault(); 
+        $scope.selectedBlog = null; 
+        console.log(event); 
     }; 
 
 
-    //TODO: add search shit
 
 
 }); 

@@ -7,21 +7,21 @@ app.run(function($location, $rootScope, FIREBASE_CONFIG){
     //event is a change event
     //currRoute is information about your current route
     //prevRoute is information about the route you came from
-    $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute) {
+//     $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute) {
     
-        var appTo;    
-        // to keep error from being thrown on page refresh
-        if (currRoute.originalPath) {
-          appTo = currRoute.originalPath.indexOf('/aboutme') !== -1;
-        }
+//         var appTo;    
+//         // to keep error from being thrown on page refresh
+//         if (currRoute.originalPath) {
+//           appTo = currRoute.originalPath.indexOf('/aboutme') !== -1;
+//         }
     
-        if (!appTo) {
-          event.preventDefault();
-          $location.path('/aboutme');
-        }
+//         if (!appTo) {
+//           event.preventDefault();
+//           $location.path('/aboutme');
+//         }
 
-        $rootScope.prevRoute = prevRoute; 
-      });
+//         $rootScope.prevRoute = prevRoute; 
+//       });
 }); 
 
 

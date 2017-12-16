@@ -1,0 +1,19 @@
+<div id="jumbo-container" class="jumbotron hidden">
+	<section id="jumbo-container-content" class="blog-card-content">
+    
+    </section>
+		<p><a id="close-jumbo-btn" class="btn btn-primary btn-lg" href="#" role="button">Close</a></p>
+</div>
+<div id="blog-container" class="container-fluid">
+	<div id="{{blog.cardId}}" ng-repeat="blog of blogs" class="blog-card col-md-3">
+		<section class="blog-card-content">
+			<div class="blog-title">
+				<h4>{{blog.title}}</h4>
+				<h5>{{blog.date}}</h5>
+			</div>
+			<div class="blog-text">
+				<p class="entry">{{blog.entry}}</p>
+			</div>
+		</section>
+	</div>
+</div>    

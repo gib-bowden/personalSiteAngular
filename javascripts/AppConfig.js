@@ -1,6 +1,6 @@
 "use strict";
 
-app.run(function($location, $rootScope, FIREBASE_CONFIG, AuthService){
+app.run(function($location, $rootScope, FIREBASE_CONFIG){
     firebase.initializeApp(FIREBASE_CONFIG);
 
     //watch method that fires on change of a route.  3 inputs. 

@@ -1,33 +1,94 @@
 {
     "blogs": [{
         "cardId": "blog-card-1",
-        "title": "My Blog 1",
-        "date": "July 23, 2017",
-        "entry": "So, I think I learned something. Not sure what, not even sure what I'm talking about now. Oh, well.",
-        "tags": ["JavaScript", "CSS", "HTML", "font-end"]
+        "title": "JavaScript begins",
+        "date": "July 29, 2017",
+        "entry": "We started JavaScript, glad to finally be coding"
     }, {
         "cardId": "blog-card-2",
-        "title": "My Blog 2",
-        "date": "July 23, 2017",
-        "entry": "Instant, kopi-luwak seasonal caramelization siphon foam, and cup mocha whipped qui, barista a rich, plunger pot, in, coffee latte dark ristretto body café au lait. Extraction extra single origin decaffeinated, plunger pot, robust crema aromatic, single shot aromatic grounds doppio aftertaste in id sweet mocha.",
-        "tags": ["JavaScript", "CSS", "HTML", "coffee"]
+        "title": "Github forever",
+        "date": "August 7, 2017",
+        "entry": "Learned more about github and source control, pretty exiting stuff"
     }, {
         "cardId": "blog-card-3",
-        "title": "My Blog 3",
-        "date": "July 23, 2017",
-        "entry": "Instant, kopi-luwak seasonal caramelization siphon foam, and cup mocha whipped qui, barista a rich, plunger pot, in, coffee latte dark ristretto body café au lait. Extraction extra single origin decaffeinated, plunger pot, robust crema aromatic, single shot aromatic grounds doppio aftertaste in id sweet mocha. Instant, kopi-luwak seasonal caramelization siphon foam, and cup mocha whipped qui, barista a rich, plunger pot, in, coffee latte dark ristretto body café au lait. Extraction extra single origin decaffeinated, plunger pot, robust crema aromatic, single shot aromatic grounds doppio aftertaste in id sweet mocha.",
-        "tags": []
+        "title": "Team chaos",
+        "date": "August 14, 2017",
+        "entry": "We had our first group project, it was grim...plan more code less"
     }, {
         "cardId": "blog-card-4",
-        "title": "My Blog 4",
-        "date": "July 23, 2017",
-        "entry": "Instant, kopi-luwak seasonal caramelization siphon foam, and cup mocha whipped qui, barista a rich, plunger pot, in, coffee latte dark ristretto body café au lait. Extraction extra single origin decaffeinated, plunger pot, robust crema aromatic, single shot aromatic grounds doppio aftertaste in id sweet mocha.",
-        "tags": []
+        "title": "Event_Listeners.md",
+        "entry": "Event listners are magic, markdown could be cool if I ever write a read-me",
+        "date": "August 22, 2017"
     }, {
         "cardId": "blog-card-5",
-        "title": "My Blog 5",
-        "date": "July 23, 2017",
-        "entry": "Instant, kopi-luwak seasonal caramelization siphon foam, and cup mocha whipped qui, barista a rich, plunger pot, in, coffee latte dark ristretto body café au lait. Extraction extra single origin decaffeinated, plunger pot, robust crema aromatic, single shot aromatic grounds doppio aftertaste in id sweet mocha.",
-        "tags": []
+        "title": "XXXHR",
+        "date": "August 29, 2017",
+        "entry": "XHR is sweet, gimme gimme some data"
+    },{
+        "cardId": "blog-card-6",
+        "title": "Bootstrappin",
+        "date": "September 9, 2017",
+        "entry": "Bootstrap, despite it being ugly, allows me to write minimal css - so I'm a fan"
+    },{
+        "cardId": "blog-card-7",
+        "title": "Browserify > IIFE",
+        "date": "September 18, 2017",
+        "entry": "see blog title"
+    },{
+        "cardId": "blog-card-8",
+        "title": "Jamiroquery",
+        "date": "October 7, 2017",
+        "entry": "See ya document.getElementById"
+    },{
+        "cardId": "blog-card-9",
+        "title": "Promises Promises",
+        "date": "October 17, 2017",
+        "entry": "Wait for it..."
+    },{
+        "cardId": "blog-card-10",
+        "title": "WTF is an API?",
+        "date": "October 24, 2017",
+        "entry": "Now I (sort of) know, gimme gimme other people's stuff"
+    },{
+        "cardId": "blog-card-11",
+        "title": "Dumpster Fire(base)",
+        "date": "November 13, 2017",
+        "entry": "Too bad it doesn't work with Chrome"
+    },{
+        "cardId": "blog-card-12",
+        "title": "RIP DomStrang",
+        "date": "November 20, 2017",
+        "entry": "We made it, who needed the rest of the class now that we have AngularJS?"
+    }],
+    "projects": [{
+        "cardId": "project-card-1",
+        "title": "Live dB",
+        "repoUrl": "https://github.com/gib-bowden/live-dB",
+        "about": "Front-end capstone project using AngularJS. Allows the user to import their Spotify playlists and search for concerts using the SongKick API"
+    }, {
+        "cardId": "project-card-2",
+        "title": "Pinterest Jalapeno Hotties",
+        "repoUrl": "https://github.com/nss-evening-cohort-06/pinterest-jalapeno-hotties",
+        "about": "Group project using AngularJS. Knockoff pinterest site"
+    }, {
+        "cardId": "project-card-3",
+        "title": "Weather App",
+        "repoUrl": "https://github.com/gib-bowden/localWeatherApp",
+        "about": "JQuery based project allows the user to search by zip and view the local forecast"
+    }, {
+        "cardId": "project-card-4",
+        "title": "Theme Park Misc",
+        "repoUrl": "https://github.com/nss-evening-cohort-06/theme-park-misc",
+        "about": "Group project using JQuery. Allows the user to lookup attraction info for a fictious and mysterious theme park"
+    }, {
+        "cardId": "project-card-5",
+        "title": "Chatty Daddy",
+        "repoUrl": "https://github.com/nss-evening-cohort-06/chatty-fancy-butterflies",
+        "about": "Marginally offensive chat app that utilizes browserify for a modular based design"
+    },{
+        "cardId": "project-card-6",
+        "title": "Dynamic Cards",
+        "repoUrl": "https://github.com/gib-bowden/dynamicCards",
+        "about": "Uses pure javascript to traverse the DOM"
     }]
 }

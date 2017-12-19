@@ -23,6 +23,4 @@ app.controller("BlogCtrl", function($location, $rootScope, $scope, DatabaseServi
     }; 
 
 
-
-
 }); 

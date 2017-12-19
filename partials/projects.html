@@ -1,3 +1,14 @@
-<div>
-   Projects 
-</div>
+<div id="project-container" class="container-fluid">
+	<div id="{{project.cardId}}" ng-click="selectproject($index)" ng-repeat="project in projects" class="project-card col-md-12">
+		<section class="project-card-content">
+			<div class="project-title">
+				<h4>
+                    <a target="_blank" href="{{project.repoUrl}}">{{project.title}}</a>
+                </h4>
+			</div>
+			<div class="project-text">
+				<p class="entry">{{project.about}}</p>
+			</div>
+		</section>
+	</div>
+</div> 

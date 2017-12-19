@@ -50,7 +50,7 @@ app.config(function($routeProvider, $locationProvider){
         })
         .when("/projects", {
             templateUrl: 'partials/projects.html',
-            controller: 'ProjectsCtrl',
+            controller: 'ProjectCtrl',
 
         })
         .otherwise("/aboutme");

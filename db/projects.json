@@ -1,0 +1,33 @@
+{
+    "projects": [{
+    "cardId": "project-card-1",
+    "title": "Live dB",
+    "repoUrl": "https://github.com/gib-bowden/live-dB",
+    "about": "Front-end capstone project using AngularJS. Allows the user to import their Spotify playlists and search for concerts using the SongKick API"
+}, {
+    "cardId": "project-card-2",
+    "title": "Pinterest Jalapeno Hotties",
+    "repoUrl": "https://github.com/nss-evening-cohort-06/pinterest-jalapeno-hotties",
+    "about": "Group project using AngularJS. Knockoff pinterest site"
+}, {
+    "cardId": "project-card-3",
+    "title": "Weather App",
+    "repoUrl": "https://github.com/gib-bowden/localWeatherApp",
+    "about": "JQuery based project allows the user to search by zip and view the local forecast"
+}, {
+    "cardId": "project-card-4",
+    "title": "Theme Park Misc",
+    "repoUrl": "https://github.com/nss-evening-cohort-06/theme-park-misc",
+    "about": "Group project using JQuery. Allows the user to lookup attraction info for a fictious and mysterious theme park"
+}, {
+    "cardId": "project-card-5",
+    "title": "Chatty Daddy",
+    "repoUrl": "https://github.com/nss-evening-cohort-06/chatty-fancy-butterflies",
+    "about": "Marginally offensive chat app that utilizes browserify for a modular based design"
+},{
+    "cardId": "project-card-6",
+    "title": "Dynamic Cards",
+    "repoUrl": "https://github.com/gib-bowden/dynamicCards",
+    "about": "Uses pure javascript to traverse the DOM"
+}]
+}
